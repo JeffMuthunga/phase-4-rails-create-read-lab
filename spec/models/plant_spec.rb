@@ -17,7 +17,7 @@ RSpec.describe Plant, type: :model do
 
   describe '#price' do
     it 'returns the plant\'s price' do
-      expect(plant.price).to eq(15.99)
+      expect(plant.price).to eq("15.99")
     end
   end
 end
